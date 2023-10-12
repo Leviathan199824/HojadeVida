@@ -1,0 +1,86 @@
+
+body{
+    background:rgba(28,60,59,255);
+}
+.cabecera{
+    display: flex;
+}
+.foto{
+    position:relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    border-radius: 100%;
+    
+}
+.foto > .img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.informacion{
+    position: relative;
+    border-radius: none;
+    margin-left: 30px;
+    
+}
+.contenido{
+    margin-top: 50px;
+    font-size: 30px;
+    color:rgba(206,173,64,255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h2{
+    margin-top: 30px;
+    font-size: 20px;
+    color:rgba(206,173,64,255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info{
+    display: flex;
+}
+.color{
+    margin-left: 10px;
+    color:rgba(206,173,64,255);
+}
+.texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aliceblue;
+}
+.cuerpo{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:aliceblue;
+    margin-left: 50px;
+}
+.rectangulo {
+    position: relative;
+    width: 40%; /* Ancho del rectángulo en píxeles */
+    height: 23px; /* Altura del rectángulo en píxeles */
+    background-color:rgba(44,73,72,255); /* Color de fondo del rectángulo (cambia #3498db por el color que desees) */
+    border: none; /* Borde del rectángulo (opcional) */
+}
+.rectangulo1{
+    position: relative;
+    width: 50%; /* Ancho del rectángulo en píxeles */
+    height: 23px; /* Altura del rectángulo en píxeles */
+    background-color:rgba(44,73,72,255); /* Color de fondo del rectángulo (cambia #3498db por el color que desees) */
+    border: none; /* Borde del rectángulo (opcional) */
+}
+.textoCuerpo{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-align: justify;
+}
+.profesional{
+    position: absolute;
+    margin-top: 350px;
+    margin-right: 340px;
+    width: 36.5%; /* Ancho del rectángulo en píxeles */
+    height: 23px; /* Altura del rectángulo en píxeles */
+    background-color:rgba(44,73,72,255); /* Color de fondo del rectángulo (cambia #3498db por el color que desees) */
+    border: none; /* Borde del rectángulo (opcional) */
+}
